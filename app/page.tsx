@@ -117,21 +117,16 @@ export default async function Home() {
 
 const features = [
   {
-    title: "Performance first",
-    description:
-      "Built on [Next.js](https://nextjs.org/) primitives like `@next/font` and `next/image` for stellar performance.",
-    demo: <WebVitals />,
-  },
-  {
-    title: "My Stack",
+    title: "Full-Stack All The Way!",
     description:
       "Solid Experience with State of the Art Dev Tools",
     large: true,
     demo: (
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-5">
-        <ReactJS></ReactJS>
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-6 ">
+        <NextJS></NextJS>
         <Angular></Angular>
         <TypeScript></TypeScript>
+        <ReactJS></ReactJS>
         <Java></Java>
         <SpringBoot></SpringBoot>
       </div>
