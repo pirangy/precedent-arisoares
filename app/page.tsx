@@ -1,9 +1,6 @@
 import Card from "@/components/home/card";
-import { DEPLOY_URL } from "@/lib/constants";
 import { Github } from "@/components/shared/icons";
-import WebVitals from "@/components/home/web-vitals";
 import ComponentGrid from "@/components/home/component-grid";
-import Image from "next/image";
 import LinkedIn from "@/components/shared/icons/linkedin";
 import NextJS from "@/components/shared/icons/nextjs";
 import ReactJS from "@/components/shared/icons/react";
@@ -13,22 +10,6 @@ import Java from "@/components/shared/icons/java";
 import SpringBoot from "@/components/shared/icons/springboot";
 
 export default async function Home() {
-  const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/steven-tey/precedent",
-    {
-      ...(process.env.GITHUB_OAUTH_TOKEN && {
-        headers: {
-          Authorization: `Bearer ${process.env.GITHUB_OAUTH_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-      }),
-      // data will revalidate every 24 hours
-      next: { revalidate: 86400 },
-    },
-  )
-    .then((res) => res.json())
-    .catch((e) => console.log(e));
-
   return (
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
@@ -94,7 +75,7 @@ export default async function Home() {
           </a>
         </div>
       </div>
-      <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-3 xl:px-0">
+      <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-1 xl:px-0">
         {features.map(({ title, description, demo, large }) => (
           <Card
             key={title}
@@ -120,7 +101,7 @@ const features = [
     title: "Full-Stack All The Way!",
     description:
       "Solid Experience with State of the Art Dev Tools",
-    large: true,
+    large: false,
     demo: (
       <div className="grid grid-cols-1 gap-5 md:grid-cols-6 ">
         <NextJS></NextJS>

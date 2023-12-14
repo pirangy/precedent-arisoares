@@ -4,16 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 import useScroll from "@/lib/hooks/use-scroll";
 import { useSignInModal } from "./sign-in-modal";
-import UserDropdown from "./user-dropdown";
 import Calendar from "../shared/icons/calendar";
 
 export default function NavBar() {
-  const { SignInModal, setShowSignInModal } = useSignInModal();
+  const { setShowSignInModal } = useSignInModal();
   const scrolled = useScroll(50);
 
   return (
     <>
-      <SignInModal />
       <div
         className={`fixed top-0 w-full flex justify-center ${
           scrolled
