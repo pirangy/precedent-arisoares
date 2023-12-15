@@ -34,7 +34,7 @@ export default function NavBar() {
                 onClick={() => setShowSignInModal(true)}>
             <Link href="https://calendar.app.google/PFSv56GCFqKjMcYm6" className="flex items-center font-display text-2x1"> 
                 <Calendar className="h-8 w-8 text-[#1d9bf0]"/>
-                <p>  My Calendar</p>
+                <p>My Calendar</p>
             </Link>
           </button>
         </div>
