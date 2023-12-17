@@ -2,12 +2,12 @@ import Card from "@/components/home/card";
 import { Github } from "@/components/shared/icons";
 import ComponentGrid from "@/components/home/component-grid";
 import LinkedIn from "@/components/shared/icons/linkedin";
-import NextJS from "@/components/shared/icons/nextjs";
-import ReactJS from "@/components/shared/icons/react";
-import Angular from "@/components/shared/icons/angular";
-import TypeScript from "@/components/shared/icons/typescript";
-import Java from "@/components/shared/icons/java";
-import SpringBoot from "@/components/shared/icons/springboot";
+import NextJS from "@/components/shared/icons/tech-icons/nextjs";
+import ReactJS from "@/components/shared/icons/tech-icons/react";
+import Angular from "@/components/shared/icons/tech-icons/angular";
+import TypeScript from "@/components/shared/icons/tech-icons/typescript";
+import Java from "@/components/shared/icons/tech-icons/java";
+import SpringBoot from "@/components/shared/icons/tech-icons/springboot";
 
 export default async function Home() {
   return (

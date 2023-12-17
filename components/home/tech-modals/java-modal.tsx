@@ -7,7 +7,7 @@ import {
   useMemo,
 } from "react";
 import Image from "next/image";
-import Java from "@/components/shared/icons/java";
+import Java from "@/components/shared/icons/tech-icons/java";
 
 const JavaModal = ({
   showJavaModal,

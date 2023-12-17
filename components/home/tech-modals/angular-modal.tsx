@@ -7,7 +7,7 @@ import {
   useMemo,
 } from "react";
 import Image from "next/image";
-import Angular from "@/components/shared/icons/angular";
+import Angular from "@/components/shared/icons/tech-icons/angular";
 
 const AngularModal = ({
   showAngularModal,
