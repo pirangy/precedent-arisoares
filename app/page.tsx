@@ -112,5 +112,22 @@ const features = [
         <SpringBoot></SpringBoot>
       </div>
     ),
+  },
+
+  {
+    title: "Full-Stack All The Way!",
+    description:
+      "Solid Experience with State of the Art Dev Tools",
+    large: false,
+    demo: (
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-6 ">
+        <NextJS></NextJS>
+        <Angular></Angular>
+        <TypeScript></TypeScript>
+        <ReactJS></ReactJS>
+        <Java></Java>
+        <SpringBoot></SpringBoot>
+      </div>
+    ),
   }
 ];
