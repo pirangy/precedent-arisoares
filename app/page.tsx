@@ -9,6 +9,11 @@ import TypeScript from "@/components/shared/icons/tech-icons/typescript";
 import Java from "@/components/shared/icons/tech-icons/java";
 import SpringBoot from "@/components/shared/icons/tech-icons/springboot";
 
+import Bradesco from "@/components/shared/icons/client-icons/bradesco";
+import TCS from "@/components/shared/icons/client-icons/tcs";
+import Embraer from "@/components/shared/icons/client-icons/embraer";
+import MetLife from "@/components/shared/icons/client-icons/metlife";
+
 export default async function Home() {
   return (
     <>
@@ -115,18 +120,16 @@ const features = [
   },
 
   {
-    title: "Full-Stack All The Way!",
+    title: "Seasoned IT Professional",
     description:
-      "Solid Experience with State of the Art Dev Tools",
+      "Experience working with Top Brands on Agile, Enterprise projects.",
     large: false,
     demo: (
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-6 ">
-        <NextJS></NextJS>
-        <Angular></Angular>
-        <TypeScript></TypeScript>
-        <ReactJS></ReactJS>
-        <Java></Java>
-        <SpringBoot></SpringBoot>
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-4 ">
+        <TCS></TCS>
+        <Bradesco></Bradesco>
+        <Embraer></Embraer>
+        <MetLife></MetLife>
       </div>
     ),
   }

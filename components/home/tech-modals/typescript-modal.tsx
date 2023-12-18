@@ -6,7 +6,6 @@ import {
   useCallback,
   useMemo,
 } from "react";
-import Image from "next/image";
 import TypeScript from "@/components/shared/icons/tech-icons/typescript";
 
 const TypeScriptModal = ({
