@@ -19,7 +19,7 @@ const EmbraerModal = ({
     <Modal showModal={showEmbraerModal} setShowModal={setShowEmbraerModal}>
       <div className="w-full overflow-hidden md:max-w-md md:rounded-2xl md:border md:border-gray-100 md:shadow-xl">
         <div className="flex flex-col items-center justify-center space-y-3 bg-white px-4 py-6 pt-8 text-center md:px-16">
-          <a href="https://embraer.com/">
+          <a href="https://embraer.com/" target="_blank" rel="noreferrer">
             <Embraer
               className="h-10 w-10 rounded-full"
             />
