@@ -26,7 +26,7 @@ const TCSModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">Systems Engineer</h3>
           <p className="text-sm text-gray-500">
-            Related Activities: lorem ipsum dolor amet.
+            Worked on projects involving CRM, CMS systems, Digital Transformation and Agile Adoption. Participated of global teams with collaborators from 5+ different nationalities on LATAM, Asia and North America.
           </p>
         </div>
       </div>

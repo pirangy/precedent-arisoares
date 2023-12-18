@@ -26,7 +26,7 @@ const EmbraerModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">UI Developer</h3>
           <p className="text-sm text-gray-500">
-          Related Activities: lorem ipsum dolor amet.
+          Integrated efforts to optimize the main CRM platform in times of high pressure due to significant shifts in demand occasioned by the military situation in Ukraine and its global impacts. High demand for expectations and conflicts management.
           </p>
         </div>
       </div>

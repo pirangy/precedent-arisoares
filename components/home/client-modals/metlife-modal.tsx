@@ -26,7 +26,7 @@ const MetLifeModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">DesignOps</h3>
           <p className="text-sm text-gray-500">
-          Related Activities: lorem ipsum dolor amet.
+          Briefly joined the company to contribute to its Design System adoption for new products by fostering, validating and establishing proper design operations flow to enhance interactions between Dev, Product and Design teams.
           </p>
         </div>
       </div>

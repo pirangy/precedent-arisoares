@@ -26,7 +26,7 @@ const BradescoModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">UI Designer</h3>
           <p className="text-sm text-gray-500">
-          Related Activities: lorem ipsum dolor amet.
+          Worked closely with Product and Development teams to insure seamless experiences for Credit Card, Loan clients looking for the best and most suitable options to their needs. Participated in strategic projects involving collaborations with Disney and other major Tourism and Entertainment Brands.
           </p>
         </div>
       </div>
