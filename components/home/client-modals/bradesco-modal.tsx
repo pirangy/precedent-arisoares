@@ -24,9 +24,9 @@ const BradescoModal = ({
               className="h-10 w-10 rounded-full"
             />
           </a>
-          <h3 className="font-display text-2xl font-bold">Bradesco</h3>
+          <h3 className="font-display text-2xl font-bold">UI Designer</h3>
           <p className="text-sm text-gray-500">
-            My Bradesco Work!
+          Related Activities: lorem ipsum dolor amet.
           </p>
         </div>
       </div>
