@@ -26,7 +26,7 @@ const TypeScriptModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">TypeScript</h3>
           <p className="text-sm text-gray-500">
-           My TypeScript Work!
+           A strongly typed programming language built upon JavaScript. I love TS strong integration with Editors such as VS Code, which catches every mistake beforehand and brings predictability, effectiveness and healthy scalability for small or large projects.
           </p>
         </div>
       </div>

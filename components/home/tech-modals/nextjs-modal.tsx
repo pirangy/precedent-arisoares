@@ -6,7 +6,6 @@ import {
   useCallback,
   useMemo,
 } from "react";
-import Image from "next/image";
 import NextJS from "@/components/shared/icons/tech-icons/nextjs";
 
 const NextJSModal = ({
@@ -27,7 +26,7 @@ const NextJSModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">Next.js</h3>
           <p className="text-sm text-gray-500">
-            My Next.js Work!
+            A modern full-stack framework for React. I love working with its core features such as Server Side Rendering, Dynamic Routing and built-in Core Optimizations for delivering great User Interfaces.
           </p>
         </div>
       </div>

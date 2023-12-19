@@ -26,7 +26,7 @@ const AngularModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">Angular</h3>
           <p className="text-sm text-gray-500">
-            My Angular Work!
+          A robust, object-oriented, full-stack framework for the Web. Working with Angular is always exciting because of its swift and practical scalability for Web REST applications and integrations with new paradigms such as RxJS.
           </p>
         </div>
       </div>
