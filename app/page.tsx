@@ -125,7 +125,7 @@ const features = [
       "Experience working with Top Brands on Agile, Enterprise projects.",
     large: false,
     demo: (
-      <div className="grid grid-cols-2 gap-5 md:grid-cols-4 ">
+      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-12 ">
         <TCS></TCS>
         <Bradesco></Bradesco>
         <Embraer></Embraer>

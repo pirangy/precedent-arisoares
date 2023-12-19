@@ -25,7 +25,7 @@ export default function Card({
       large ? "md:col-span-2" : ""
     }`}
   >
-    <div className="grid grid-cols-3 grid-rows-2 gap-4 h-full">
+    <div className="grid grid-cols-3 grid-rows-2 gap-12 h-full">
       <div className="col-span-3 row-span-1 flex m-5 items-center justify-center h-60">{demo}</div>
       <div className="col-span-3 row-span-1 flex items-center justify-center">
         <h2 className="bg-gradient-to-br from-black to-stone-500 bg-clip-text font-display m-10 text-xl font-bold text-transparent [text-wrap:balance] md:text-3xl md:font-normal">
