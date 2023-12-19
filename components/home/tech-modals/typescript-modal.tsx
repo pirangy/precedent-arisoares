@@ -7,6 +7,8 @@ import {
   useMemo,
 } from "react";
 import TypeScript from "@/components/shared/icons/tech-icons/typescript";
+import Link from "next/link";
+import Calendar from "@/components/shared/icons/calendar";
 
 const TypeScriptModal = ({
   showTypeScriptModal,
@@ -28,6 +30,13 @@ const TypeScriptModal = ({
           <p className="text-sm text-gray-500">
            A strongly typed programming language built upon JavaScript. I love TS strong integration with Editors such as VS Code, which catches every mistake beforehand and brings predictability, effectiveness and healthy scalability for small or large projects.
           </p>
+          <button className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
+                >
+            <Link href="https://calendar.app.google/PFSv56GCFqKjMcYm6" target="_blank" rel="noreferrer" className="flex items-center font-display text-2x1"> 
+                <Calendar className="h-8 w-8 text-[#1d9bf0]"/>
+                <p>Lets have a Chat!</p>
+            </Link>
+          </button>
         </div>
       </div>
     </Modal>
