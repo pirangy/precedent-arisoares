@@ -7,7 +7,7 @@ import {
   useMemo,
 } from "react";
 import Image from "next/image";
-import ReactJS from "@/components/shared/icons/react";
+import ReactJS from "@/components/shared/icons/tech-icons/react";
 
 const ReactJSModal = ({
   showReactJSModal,

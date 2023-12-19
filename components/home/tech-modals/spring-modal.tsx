@@ -7,7 +7,7 @@ import {
   useMemo,
 } from "react";
 import Image from "next/image";
-import SpringBoot from "@/components/shared/icons/springboot";
+import SpringBoot from "@/components/shared/icons/tech-icons/springboot";
 
 const SpringModal = ({
   showSpringModal,

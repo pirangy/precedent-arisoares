@@ -2,12 +2,17 @@ import Card from "@/components/home/card";
 import { Github } from "@/components/shared/icons";
 import ComponentGrid from "@/components/home/component-grid";
 import LinkedIn from "@/components/shared/icons/linkedin";
-import NextJS from "@/components/shared/icons/nextjs";
-import ReactJS from "@/components/shared/icons/react";
-import Angular from "@/components/shared/icons/angular";
-import TypeScript from "@/components/shared/icons/typescript";
-import Java from "@/components/shared/icons/java";
-import SpringBoot from "@/components/shared/icons/springboot";
+import NextJS from "@/components/shared/icons/tech-icons/nextjs";
+import ReactJS from "@/components/shared/icons/tech-icons/react";
+import Angular from "@/components/shared/icons/tech-icons/angular";
+import TypeScript from "@/components/shared/icons/tech-icons/typescript";
+import Java from "@/components/shared/icons/tech-icons/java";
+import SpringBoot from "@/components/shared/icons/tech-icons/springboot";
+
+import Bradesco from "@/components/shared/icons/client-icons/bradesco";
+import TCS from "@/components/shared/icons/client-icons/tcs";
+import Embraer from "@/components/shared/icons/client-icons/embraer";
+import MetLife from "@/components/shared/icons/client-icons/metlife";
 
 export default async function Home() {
   return (
@@ -103,13 +108,28 @@ const features = [
       "Solid Experience with State of the Art Dev Tools",
     large: false,
     demo: (
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-6 ">
+      <div className="grid grid-cols-3 gap-5 md:grid-cols-6">
         <NextJS></NextJS>
         <Angular></Angular>
         <TypeScript></TypeScript>
         <ReactJS></ReactJS>
         <Java></Java>
         <SpringBoot></SpringBoot>
+      </div>
+    ),
+  },
+
+  {
+    title: "Seasoned IT Professional",
+    description:
+      "Experience working with Top Brands on Agile, Enterprise projects.",
+    large: false,
+    demo: (
+      <div className="grid grid-cols-2 gap-5 md:grid-cols-4 ">
+        <TCS></TCS>
+        <Bradesco></Bradesco>
+        <Embraer></Embraer>
+        <MetLife></MetLife>
       </div>
     ),
   }
