@@ -108,7 +108,7 @@ const features = [
       "Solid Experience with State of the Art Dev Tools",
     large: false,
     demo: (
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-6 ">
+      <div className="grid grid-cols-3 gap-5 md:grid-cols-6">
         <NextJS></NextJS>
         <Angular></Angular>
         <TypeScript></TypeScript>
@@ -125,7 +125,7 @@ const features = [
       "Experience working with Top Brands on Agile, Enterprise projects.",
     large: false,
     demo: (
-      <div className="grid grid-cols-1 gap-10 md:grid-cols-4 ">
+      <div className="grid grid-cols-2 gap-5 md:grid-cols-4 ">
         <TCS></TCS>
         <Bradesco></Bradesco>
         <Embraer></Embraer>
