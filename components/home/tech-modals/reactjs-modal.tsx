@@ -29,7 +29,7 @@ const ReactJSModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">React.js</h3>
           <p className="text-sm text-gray-500">
-            My React.js Work!
+            A dynamic, component-based web library. What I love about React.js is the effectiveness of the JSX synthax which allows us to create efficient, reusable features that enhance web apps performance. When combined with TypeScript and modern, state of the art UI libraries such as Tailwind, Radix and Material UI, React apps may provide great conditions for great UX.
           </p>
           <button className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
                 >
