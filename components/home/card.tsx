@@ -1,3 +1,6 @@
+"use client";
+
+import useMediaQuery from "@/lib/hooks/use-media-query";
 import { ReactNode } from "react";
 import ReactMarkdown from "react-markdown";
 
@@ -12,6 +15,52 @@ export default function Card({
   demo: ReactNode;
   large?: boolean;
 }) {
+  const { isMobile } = useMediaQuery();
+
+  if (isMobile) {
+
+    return (
+    <div
+    className={`relative h-96 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md ${
+      large ? "md:col-span-2" : ""
+    }`}
+  >
+    <div className="grid grid-cols-3 grid-rows-2 gap-12 h-full">
+      <div className="col-span-3 row-span-1 flex m-5 items-center justify-center h-60">{demo}</div>
+      <div className="col-span-3 row-span-1 flex items-center justify-center">
+        <h2 className="bg-gradient-to-br from-black to-stone-500 bg-clip-text font-display m-10 text-xl font-bold text-transparent [text-wrap:balance] md:text-3xl md:font-normal">
+          {title}
+        </h2>
+        <div className="prose-sm m-15 leading-normal text-gray-500 [text-wrap:balance] md:prose">
+          <ReactMarkdown
+            components={{
+              a: ({ node, ...props }) => (
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  {...props}
+                  className="font-medium text-gray-800 underline transition-colors"
+                />
+              ),
+              code: ({ node, ...props }) => (
+                <code
+                  {...props}
+                  // @ts-ignore (to fix "Received `true` for a non-boolean attribute `inline`." warning)
+                  inline="true"
+                  className="rounded-sm bg-gray-100 px-1 py-0.5 font-mono font-medium text-gray-800"
+                />
+              ),
+            }}
+          >
+            {description}
+          </ReactMarkdown>
+        </div>
+      </div>
+    </div>
+
+  </div>
+ ) }
+
   return (
     <div
       className={`relative col-span-1 h-96 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md ${
