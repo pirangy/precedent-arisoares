@@ -7,6 +7,8 @@ import {
   useMemo,
 } from "react";
 import MetLife from "@/components/shared/icons/client-icons/metlife";
+import Link from "next/link";
+import Calendar from "@/components/shared/icons/calendar";
 
 const MetLifeModal = ({
   showMetLifeModal,
@@ -26,8 +28,15 @@ const MetLifeModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">DesignOps</h3>
           <p className="text-sm text-gray-500">
-          Briefly joined the company to contribute to its Design System adoption for new products by fostering, validating and establishing proper design operations flow to enhance interactions between Dev, Product and Design teams.
+          Joined efforts to ensure Design System adoption for new products by fostering, validating and establishing a proper design operations flow that enhanced interactions between Dev, Product and Design teams.
           </p>
+          <button className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
+                >
+            <Link href="https://calendar.app.google/PFSv56GCFqKjMcYm6" target="_blank" rel="noreferrer" className="flex items-center font-display text-2x1"> 
+                <Calendar className="h-8 w-8 text-[#1d9bf0]"/>
+                <p>Lets have a Chat!</p>
+            </Link>
+          </button>
         </div>
       </div>
     </Modal>
