@@ -29,7 +29,7 @@ const SpringModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">Spring</h3>
           <p className="text-sm text-gray-500">
-            My Spring Work!
+            Java framework that is everywhere. My first steps into Programming were Spring projects and what I most admire about it is the way it makes Java programming swift, productive and reactive-oriented, especially in the Spring Boot modality.
           </p>
           <button className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
                 >

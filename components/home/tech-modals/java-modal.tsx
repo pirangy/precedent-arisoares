@@ -29,7 +29,7 @@ const JavaModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">Java</h3>
           <p className="text-sm text-gray-500">
-            My Java Work!
+            The one and only. What makes me admire Java is how consistent and powerful it is, with its wide range of use. It is certainly a great tool for large, REST, scalable projects. From CRMs to E-Commerces, from Games and beyond... Java is Java.
           </p>
           <button className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
                 >
