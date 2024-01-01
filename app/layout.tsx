@@ -11,6 +11,7 @@ export const metadata = {
   description:
     "DesignOps | UI Engineer ",
   themeColor: "#FFF",
+  image:"https://imgur.com/fxbSXwY"
 };
 
 export default async function RootLayout({
